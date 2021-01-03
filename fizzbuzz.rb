@@ -8,7 +8,7 @@ def fizzbuzz(num)
    return  "Buzz"
   elsif num % 3 ==0 && num % 5 ==0
     return  "FizzBuzz"
-  elsif (int % 3 !=0) || (int % 5 !=0) 
+  elsif (num % 3 !=0) || (num % 5 !=0) 
     return nil 
 end
 end  
